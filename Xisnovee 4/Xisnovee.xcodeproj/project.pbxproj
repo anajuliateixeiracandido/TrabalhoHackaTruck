@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA251A212A30F63E0086D329 /* XisnoveeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA251A202A30F63E0086D329 /* XisnoveeApp.swift */; };
+		FA251A252A30F63F0086D329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA251A242A30F63F0086D329 /* Assets.xcassets */; };
+		FA251A282A30F63F0086D329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA251A272A30F63F0086D329 /* Preview Assets.xcassets */; };
+		FA251A2F2A30F92B0086D329 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA251A2E2A30F92B0086D329 /* Info.swift */; };
+		FA490BA12A3B86E600A294BD /* Credibilidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA490BA02A3B86E600A294BD /* Credibilidade.swift */; };
+		FA490BA32A3B871F00A294BD /* Coordenada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA490BA22A3B871F00A294BD /* Coordenada.swift */; };
+		FA490BA72A3B876C00A294BD /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA490BA62A3B876C00A294BD /* MyAnnotation.swift */; };
+		FA490BA92A3B9D8000A294BD /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA490BA82A3B9D8000A294BD /* NewMapView.swift */; };
+		FA7106162A3A231300DBAAA4 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7106152A3A231300DBAAA4 /* Place.swift */; };
+		FA71061C2A3A23C400DBAAA4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71061B2A3A23C400DBAAA4 /* MapView.swift */; };
+		FA71061E2A3A240400DBAAA4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71061D2A3A240400DBAAA4 /* MapViewModel.swift */; };
+		FA7106202A3A245E00DBAAA4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71061F2A3A245E00DBAAA4 /* Home.swift */; };
+		FAEAF1152A38DB4F00F0B37A /* TelaRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF1142A38DB4F00F0B37A /* TelaRegistro.swift */; };
+		FAEAF1192A38DC0C00F0B37A /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF1182A38DC0C00F0B37A /* Type.swift */; };
+		FAEAF11D2A38DF5600F0B37A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF11C2A38DF5600F0B37A /* Main.swift */; };
+		FAEAF1212A38F72B00F0B37A /* Ocorrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF1202A38F72B00F0B37A /* Ocorrencia.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA251A1D2A30F63E0086D329 /* Xisnovee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xisnovee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA251A202A30F63E0086D329 /* XisnoveeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XisnoveeApp.swift; sourceTree = "<group>"; };
+		FA251A242A30F63F0086D329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA251A272A30F63F0086D329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA251A2E2A30F92B0086D329 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		FA490BA02A3B86E600A294BD /* Credibilidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credibilidade.swift; sourceTree = "<group>"; };
+		FA490BA22A3B871F00A294BD /* Coordenada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordenada.swift; sourceTree = "<group>"; };
+		FA490BA62A3B876C00A294BD /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		FA490BA82A3B9D8000A294BD /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		FA7106152A3A231300DBAAA4 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FA71061B2A3A23C400DBAAA4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FA71061D2A3A240400DBAAA4 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		FA71061F2A3A245E00DBAAA4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FA7106212A3A300800DBAAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAEAF1142A38DB4F00F0B37A /* TelaRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaRegistro.swift; sourceTree = "<group>"; };
+		FAEAF1182A38DC0C00F0B37A /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		FAEAF11C2A38DF5600F0B37A /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FAEAF1202A38F72B00F0B37A /* Ocorrencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocorrencia.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA251A1A2A30F63E0086D329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA251A142A30F63E0086D329 = {
+			isa = PBXGroup;
+			children = (
+				FA251A1F2A30F63E0086D329 /* Xisnovee */,
+				FA251A1E2A30F63E0086D329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA251A1E2A30F63E0086D329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA251A1D2A30F63E0086D329 /* Xisnovee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA251A1F2A30F63E0086D329 /* Xisnovee */ = {
+			isa = PBXGroup;
+			children = (
+				FA7106212A3A300800DBAAA4 /* Info.plist */,
+				FA251A202A30F63E0086D329 /* XisnoveeApp.swift */,
+				FA251A2E2A30F92B0086D329 /* Info.swift */,
+				FA251A242A30F63F0086D329 /* Assets.xcassets */,
+				FA251A262A30F63F0086D329 /* Preview Content */,
+				FAEAF1142A38DB4F00F0B37A /* TelaRegistro.swift */,
+				FAEAF1182A38DC0C00F0B37A /* Type.swift */,
+				FAEAF11C2A38DF5600F0B37A /* Main.swift */,
+				FAEAF1202A38F72B00F0B37A /* Ocorrencia.swift */,
+				FA7106152A3A231300DBAAA4 /* Place.swift */,
+				FA71061B2A3A23C400DBAAA4 /* MapView.swift */,
+				FA71061D2A3A240400DBAAA4 /* MapViewModel.swift */,
+				FA71061F2A3A245E00DBAAA4 /* Home.swift */,
+				FA490BA02A3B86E600A294BD /* Credibilidade.swift */,
+				FA490BA22A3B871F00A294BD /* Coordenada.swift */,
+				FA490BA62A3B876C00A294BD /* MyAnnotation.swift */,
+				FA490BA82A3B9D8000A294BD /* NewMapView.swift */,
+			);
+			path = Xisnovee;
+			sourceTree = "<group>";
+		};
+		FA251A262A30F63F0086D329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA251A272A30F63F0086D329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA251A1C2A30F63E0086D329 /* Xisnovee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA251A2B2A30F63F0086D329 /* Build configuration list for PBXNativeTarget "Xisnovee" */;
+			buildPhases = (
+				FA251A192A30F63E0086D329 /* Sources */,
+				FA251A1A2A30F63E0086D329 /* Frameworks */,
+				FA251A1B2A30F63E0086D329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xisnovee;
+			productName = Xisnovee;
+			productReference = FA251A1D2A30F63E0086D329 /* Xisnovee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA251A152A30F63E0086D329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA251A1C2A30F63E0086D329 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FA251A182A30F63E0086D329 /* Build configuration list for PBXProject "Xisnovee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA251A142A30F63E0086D329;
+			productRefGroup = FA251A1E2A30F63E0086D329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA251A1C2A30F63E0086D329 /* Xisnovee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA251A1B2A30F63E0086D329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA251A282A30F63F0086D329 /* Preview Assets.xcassets in Resources */,
+				FA251A252A30F63F0086D329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA251A192A30F63E0086D329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEAF11D2A38DF5600F0B37A /* Main.swift in Sources */,
+				FA71061E2A3A240400DBAAA4 /* MapViewModel.swift in Sources */,
+				FAEAF1212A38F72B00F0B37A /* Ocorrencia.swift in Sources */,
+				FA7106202A3A245E00DBAAA4 /* Home.swift in Sources */,
+				FA490BA12A3B86E600A294BD /* Credibilidade.swift in Sources */,
+				FAEAF1192A38DC0C00F0B37A /* Type.swift in Sources */,
+				FA7106162A3A231300DBAAA4 /* Place.swift in Sources */,
+				FA251A2F2A30F92B0086D329 /* Info.swift in Sources */,
+				FA251A212A30F63E0086D329 /* XisnoveeApp.swift in Sources */,
+				FAEAF1152A38DB4F00F0B37A /* TelaRegistro.swift in Sources */,
+				FA490BA92A3B9D8000A294BD /* NewMapView.swift in Sources */,
+				FA71061C2A3A23C400DBAAA4 /* MapView.swift in Sources */,
+				FA490BA32A3B871F00A294BD /* Coordenada.swift in Sources */,
+				FA490BA72A3B876C00A294BD /* MyAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA251A292A30F63F0086D329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA251A2A2A30F63F0086D329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA251A2C2A30F63F0086D329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xisnovee/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ULM64Z8RQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xisnovee/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = Local;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Local Use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitoria-Santos.Xisnovee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA251A2D2A30F63F0086D329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xisnovee/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ULM64Z8RQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xisnovee/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = Local;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Local Use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitoria-Santos.Xisnovee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA251A182A30F63E0086D329 /* Build configuration list for PBXProject "Xisnovee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA251A292A30F63F0086D329 /* Debug */,
+				FA251A2A2A30F63F0086D329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA251A2B2A30F63F0086D329 /* Build configuration list for PBXNativeTarget "Xisnovee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA251A2C2A30F63F0086D329 /* Debug */,
+				FA251A2D2A30F63F0086D329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA251A152A30F63E0086D329 /* Project object */;
+}
